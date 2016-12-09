@@ -5,18 +5,20 @@
   
 
  使用文档 
-
-
-项目介绍：
-使用:
+ 
+ 
+ 
+ 
 1、关闭Xcode
+
 2、如果是xcode7 将解压后的文件 复制到
 
 ~/Library/Developer/Xcode/Templates/Project Templates
 
-文件夹下
+文件夹下，
 Xcode8好像是没有这个路径的 需要手动创建
 然后同Xcode7
+
 3、启动Xcode 并选择QWTabBarTemplate模版
 
 4、创建完成后 有4个错误 这是没有配置 PCH文件路径
