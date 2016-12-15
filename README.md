@@ -26,7 +26,10 @@ Xcode8好像是没有这个路径的 需要手动创建
 5、配置PCH文件路径
 
 6、此时没有写一句代码 CMD＋R 运行出来就有工具栏和导航栏
+
+7、如果你是Xcode6请自行百度 XCode6的 模版路径 然后copy进去
 （有OC的模版和swift的模版 选择对应语言即可 本模版用Xcode7编写，Xcode8可能需要您动动小手改下代码 很简单的改动 这是swift2.0和swift3.0的语法区别造成的 ）
 你可以随意更改 ！！！！！！！！！不用顾忌我
+
 这个链接也可以下载
 http://www.code4app.com/forum.php?mod=attachment&aid=MTU5NDV8YTI3MTcwZDh8MTQ4MTI2MDAwN3w4MTcyMzF8MTE5NTA%3D
