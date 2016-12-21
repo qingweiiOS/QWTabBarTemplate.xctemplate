@@ -26,6 +26,7 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
+						<string>Podfile</string>
 						<string>Assets.xcassets</string>
 						<string>AppDelegate.m:imports:importHeader:QWTabBarController.h</string>
 						<string>OC/Other/CommonlyConst.h</string>
@@ -43,6 +44,11 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
+						<key>Podfile</key>
+						<dict>
+							<key>Path</key>
+							<string>Podfile</string>
+						</dict>
 						<key>Assets.xcassets</key>
 						<dict>
 							<key>SortOrder</key>
