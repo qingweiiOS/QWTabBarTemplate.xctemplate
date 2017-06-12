@@ -32,12 +32,15 @@
 #warning Set TabBarItem selected Icon Name
     NSArray *selectImageArray = @[@"TabBar_home_23x23_selected",@"TabBar_gift_23x23_selected",@"TabBar_category_23x23_selected",@"TabBar_me_boy_23x23_selected"];
 #warning Set TabBarItem title
-    NSArray *titles = @[@"test1",@"test2",@"test3",@"test4"];
+    NSArray *titles = @[@"你可以",@"选择警告",@"修改标题",@"和icon"];
+#warning Set NavgationItem title
+    NSArray *titles1 = @[@"导航栏标题",@"导航栏标题",@"导航栏标题",@"导航栏标题"];
     for(int i =0;i<array.count;i++)
     {
         UIViewController *vc = [[NSClassFromString(array[i]) alloc] init];
         QWNavitionController *nav = [[QWNavitionController alloc] initWithRootViewController:vc];
-        vc.title = titles[i];
+        vc.title = titles1[i];
+        ;
         nav.tabBarItem.title = titles[i];
         nav.tabBarItem.image = IMG(imgArray[i]);
         nav.tabBarItem.selectedImage = [IMG(selectImageArray[i]) imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

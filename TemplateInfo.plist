@@ -57,11 +57,12 @@
 							<string>Assets.xcassets</string>
 						</dict>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string> self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+						<string>#warning 复制到 prefix Header 中
+    //    $(SRCROOT)/___PROJECTNAME___/OC/Other/___PROJECTNAME___PrefixHeader.pch
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     QWTabBarController *tabBar = [[QWTabBarController alloc] init];
     self.window.rootViewController = tabBar;
-    [self.window makeKeyAndVisible];
-</string>
+    [self.window makeKeyAndVisible];</string>
 						<key>OC/Extension/UIView+Extension.m</key>
 						<dict>
 							<key>SortOrder</key>
