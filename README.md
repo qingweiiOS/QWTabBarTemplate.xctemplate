@@ -16,8 +16,11 @@
 ###4、创建完成后 有4个错误 这是没有配置 PCH文件路径
 
 ![230431ibck7e07dzgbgaab.png.jpg](https://upload-images.jianshu.io/upload_images/2342189-b4fc2ee862208cf2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###5、配置PCH文件路径  如果不知道路径的话 ，在Appdelegate.m 中的⚠️ 有说明
+
 ![230527sbkfkbzyf2598t2z.png.jpg](https://upload-images.jianshu.io/upload_images/2342189-6fd50e3b0e0edea7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### 6、此时没有写一句代码 CMD＋R 运行出来就有工具栏和导航栏'
 
 ![230627id74m8ym4zk32bm1.png.jpg](https://upload-images.jianshu.io/upload_images/2342189-25156c1927bc454a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
