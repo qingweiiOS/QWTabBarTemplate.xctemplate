@@ -25,7 +25,7 @@
 
 ![230627id74m8ym4zk32bm1.png.jpg](https://upload-images.jianshu.io/upload_images/2342189-25156c1927bc454a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### 7、如果你是Xcode6请自行百度 XCode6的 模版路径 然后copy进去
+### 7、如果你是Xcode6请自行百度 XCode 6的 模版路径 然后copy进去 【应该没有吧，别打脸】
 
 ### 8、通过本模版创建的工程中有几个⚠️， 在⚠️存在的地方就是你需要修改的地方
 ### 本模版你可以随意更改 ！
