@@ -14,7 +14,7 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
-	<string>工具栏加上导航栏   [作者:薇薇卿]</string>
+	<string>工具栏加上导航栏   [Mr.Qing]</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -29,18 +29,16 @@
 						<string>Podfile</string>
 						<string>Assets.xcassets</string>
 						<string>AppDelegate.m:imports:importHeader:QWTabBarController.h</string>
-						<string>OC/Other/CommonlyConst.h</string>
-						<string>OC/Other/CommonlyConst.m</string>
-						<string>OC/Other/___PROJECTNAME___PrefixHeader.pch</string>
-						<string>OC/Other/CommonlyMacro.h</string>
-						<string>OC/Base/QWBaseViewController.h</string>
-						<string>OC/Base/QWBaseViewController.m</string>
-						<string>OC/Base/QWNavitionController.h</string>
-						<string>OC/Base/QWNavitionController.m</string>
-						<string>OC/Base/QWTabBarController.h</string>
-						<string>OC/Base/QWTabBarController.m</string>
-						<string>OC/Extension/UIView+Extension.h</string>
-						<string>OC/Extension/UIView+Extension.m</string>
+						<string>Other/___PROJECTNAME___PrefixHeader.pch</string>
+						<string>Other/CommonlyMacro.h</string>
+						<string>Base/QWBaseViewController.h</string>
+						<string>Base/QWBaseViewController.m</string>
+						<string>Base/QWNavitionController.h</string>
+						<string>Base/QWNavitionController.m</string>
+						<string>Base/QWTabBarController.h</string>
+						<string>Base/QWTabBarController.m</string>
+						<string>Extension/UIView+Extension.h</string>
+						<string>Extension/UIView+Extension.m</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -58,174 +56,88 @@
 						</dict>
 						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
 						<string>#warning 复制到 prefix Header 中
-    //    $(SRCROOT)/___PROJECTNAME___/OC/Other/___PROJECTNAME___PrefixHeader.pch
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    QWTabBarController *tabBar = [[QWTabBarController alloc] init];
-    self.window.rootViewController = tabBar;
-    [self.window makeKeyAndVisible];</string>
-						<key>OC/Extension/UIView+Extension.m</key>
+//    $(SRCROOT)/___PROJECTNAME___/Other/___PROJECTNAME___PrefixHeader.pch
+self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+QWTabBarController *tabBar = [[QWTabBarController alloc] init];
+self.window.rootViewController = tabBar;
+[self.window makeKeyAndVisible];
+</string>
+						<key>Extension/UIView+Extension.m</key>
 						<dict>
 							<key>SortOrder</key>
 							<string>1</string>
 							<key>Group</key>
 							<string>Extension</string>
 							<key>Path</key>
-							<string>OC/Extension/UIView+Extension.m</string>
+							<string>Extension/UIView+Extension.m</string>
 						</dict>
-						<key>OC/Extension/UIView+Extension.h</key>
+						<key>Extension/UIView+Extension.h</key>
 						<dict>
 							<key>Group</key>
 							<string>Extension</string>
 							<key>Path</key>
-							<string>OC/Extension/UIView+Extension.h</string>
+							<string>Extension/UIView+Extension.h</string>
 						</dict>
-						<key>OC/Base/QWTabBarController.m</key>
+						<key>Base/QWTabBarController.m</key>
 						<dict>
 							<key>Path</key>
-							<string>OC/Base/QWTabBarController.m</string>
+							<string>Base/QWTabBarController.m</string>
 							<key>SortOrder</key>
 							<string>2</string>
 							<key>Group</key>
 							<string>Base</string>
 						</dict>
-						<key>OC/Base/QWTabBarController.h</key>
+						<key>Base/QWTabBarController.h</key>
 						<dict>
 							<key>Path</key>
-							<string>OC/Base/QWTabBarController.h</string>
+							<string>Base/QWTabBarController.h</string>
 							<key>Group</key>
 							<string>Base</string>
 						</dict>
-						<key>OC/Base/QWNavitionController.m</key>
-						<dict>
-							<key>Group</key>
-							<string>Base</string>
-							<key>Path</key>
-							<string>OC/Base/QWNavitionController.m</string>
-						</dict>
-						<key>OC/Base/QWNavitionController.h</key>
+						<key>Base/QWNavitionController.m</key>
 						<dict>
 							<key>Group</key>
 							<string>Base</string>
 							<key>Path</key>
-							<string>OC/Base/QWNavitionController.h</string>
+							<string>Base/QWNavitionController.m</string>
 						</dict>
-						<key>OC/Base/QWBaseViewController.m</key>
+						<key>Base/QWNavitionController.h</key>
 						<dict>
 							<key>Group</key>
 							<string>Base</string>
 							<key>Path</key>
-							<string>OC/Base/QWBaseViewController.m</string>
+							<string>Base/QWNavitionController.h</string>
 						</dict>
-						<key>OC/Base/QWBaseViewController.h</key>
+						<key>Base/QWBaseViewController.m</key>
 						<dict>
 							<key>Group</key>
 							<string>Base</string>
 							<key>Path</key>
-							<string>OC/Base/QWBaseViewController.h</string>
+							<string>Base/QWBaseViewController.m</string>
 						</dict>
-						<key>OC/Other/CommonlyMacro.h</key>
+						<key>Base/QWBaseViewController.h</key>
+						<dict>
+							<key>Group</key>
+							<string>Base</string>
+							<key>Path</key>
+							<string>Base/QWBaseViewController.h</string>
+						</dict>
+						<key>Other/CommonlyMacro.h</key>
 						<dict>
 							<key>SortOrder</key>
 							<string>3</string>
 							<key>Group</key>
 							<string>Other</string>
 							<key>Path</key>
-							<string>OC/Other/CommonlyMacro.h</string>
+							<string>Other/CommonlyMacro.h</string>
 						</dict>
-						<key>OC/Other/___PROJECTNAME___PrefixHeader.pch</key>
+						<key>Other/___PROJECTNAME___PrefixHeader.pch</key>
 						<dict>
 							<key>Group</key>
 							<string>Other</string>
 							<key>Path</key>
-							<string>OC/Other/___PROJECTNAME___PrefixHeader.pch</string>
+							<string>Other/___PROJECTNAME___PrefixHeader.pch</string>
 						</dict>
-						<key>OC/Other/CommonlyConst.h</key>
-						<dict>
-							<key>Group</key>
-							<string>Other</string>
-							<key>Path</key>
-							<string>OC/Other/CommonlyConst.h</string>
-						</dict>
-						<key>OC/Other/CommonlyConst.m</key>
-						<dict>
-							<key>Path</key>
-							<string>OC/Other/CommonlyConst.m</string>
-							<key>Group</key>
-							<string>Other</string>
-						</dict>
-					</dict>
-				</dict>
-				<key>Swift</key>
-				<dict>
-					<key>Nodes</key>
-					<array>
-						<string>Assets.xcassets</string>
-						<string>Swift/Other/Macro.swift</string>
-						<string>Swift/Base/QWBaseViewController.swift</string>
-						<string>Swift/Base/QWNavitionController.swift</string>
-						<string>Swift/Base/QWTabBarController.swift</string>
-					</array>
-					<key>Definitions</key>
-					<dict>
-						<key>Assets.xcassets</key>
-						<dict>
-							<key>SortOrder</key>
-							<integer>50</integer>
-							<key>Path</key>
-							<string>Assets.xcassets</string>
-						</dict>
-						<key>Swift/Other/Macro.swift</key>
-						<dict>
-							<key>SortOrder</key>
-							<integer>1000</integer>
-							<key>Path</key>
-							<string>Other-Swift/Macro.swift</string>
-							<key>Group</key>
-							<string>Other</string>
-						</dict>
-						<key>Swift/Base/QWTabBarController.swift</key>
-						<dict>
-							<key>SortOrder</key>
-							<integer>900</integer>
-							<key>Path</key>
-							<string>Swift/Base/QWTabBarController.swift</string>
-							<key>Group</key>
-							<string>Base</string>
-						</dict>
-						<key>Swift/Base/QWNavitionController.swift</key>
-						<dict>
-							<key>SortOrder</key>
-							<string>101</string>
-							<key>Path</key>
-							<string>Swift/Base/QWNavitionController.swift</string>
-							<key>Group</key>
-							<string>Base</string>
-						</dict>
-						<key>Swift/Base/QWBaseViewController.swift</key>
-						<dict>
-							<key>SortOrder</key>
-							<string>102</string>
-							<key>Path</key>
-							<string>Swift/Base/QWBaseViewController.swift</string>
-							<key>Group</key>
-							<string>Base</string>
-						</dict>
-						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string> self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-                self.window?.backgroundColor = UIColor.whiteColor()
-                let rootCtl = QWTabBarController()
-                self.window?.rootViewController = rootCtl
-                 //FIXME:此处设置 tabBar 子视图控制器 的名称
-                 rootCtl.VCArray = [&quot;QWBaseViewController&quot;,&quot;QWBaseViewController&quot;,&quot;QWBaseViewController&quot;,&quot;QWBaseViewController&quot;]
-                //FIXME:此处设置 tabBar 子视图控制器 的标题
-                 rootCtl.titleArray = [&quot;单糖&quot;,&quot;分类&quot;,&quot;我&quot;]
-                //FIXME:设置图标
-                //rootCtl.imageArray
-                 //FIXME:设置选中图标
-                //rootCtl.selectImageArray
-                //选中icon 未选中icon
-                self.window?.makeKeyAndVisible()
-</string>
 					</dict>
 				</dict>
 			</dict>
