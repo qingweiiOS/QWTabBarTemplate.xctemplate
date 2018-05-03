@@ -13,6 +13,7 @@
 
 3、启动Xcode 并选择QWTabBarTemplate模版
 
+
 4、创建完成后 有4个错误 这是没有配置 PCH文件路径
 
 5、配置PCH文件路径
